@@ -1,0 +1,116 @@
+/* псевдоклассы 
+:hover  при наведении меняет цвет*/
+/* div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+} */
+/* 
+div:hover {
+  background-color: yellow;
+  transition: 2s;
+} */
+
+/* visited освещает в пройденные ссылка */
+/* a:visited {
+  color: green;
+}
+/* актив-менят цвет когда нажмаешь на ссылку  
+a:active {
+  color: black;
+}
+.block {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+}
+.block:active {
+  background-color: teal;
+  transition: 2s;
+}
+ul {
+  list-style: none;
+}
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* first last nth-child обращение к некоторым элементам на странице */
+/* li:first-child > div {
+  background-color: yellow;
+}
+li:last-child > div {
+  background-color: skyblue;
+}
+li:nth-child(3) > div {
+  background-color: burlywood;
+}
+ul {
+  list-style: disc;
+}
+ul li::marker {
+  color: blue;
+} */
+/* input {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  transition: 1s;
+}
+input:focus {
+  background-color: aqua;
+  transition: 0.8s;
+} */
+/* not задают стиле всему кроме () */
+/* .div-1,
+.div-2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+div:not(.div-2) {
+  background-color: yellow;
+} */
+/* valid,invalid */
+/* проверка на правильность по типу */
+/* input:valid {
+  background-color: green;
+} */
+/* если введены не правильные данные */
+/* input:invalid {
+  background-color: red;
+} */
+/* ПСЕВДОЭЛЕМЕНТЫ */
+/* h1::before {
+  content: "ARLEN";
+}
+h1::after {
+  content: "ARLEN";
+} */
+/* меняет стили выделнного текста */
+/* p::selection {
+  color: red;
+  background-color: black;
+} */
+/* h1::first-letter {
+  color: red;
+  font-size: 100px;
+} */
+/* first line */
+p::first-line {
+  color: red;
+  font-size: 25px;
+}
